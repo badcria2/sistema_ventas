@@ -7,7 +7,7 @@ import java.awt.event.MouseEvent;
 
 /**
  * Clase utilitaria mejorada para diseño y componentes visuales del sistema
- * TechStore Pro Versión 2.1 - Corregida compatibilidad de iconos y texto
+ * Tecnoby Store Versión 2.1 - Corregida compatibilidad de iconos y texto
  *
  * @version 2.1
  */

@@ -117,7 +117,7 @@ public class LoginVentas extends JFrame {
         gbc.insets = new Insets(10, 5, 10, 5);
 
         // Título principal del formulario
-        JLabel lblTitulo = new JLabel("TechStore Pro");
+        JLabel lblTitulo = new JLabel("Tecnoby Store");
         lblTitulo.setFont(new Font("Segoe UI", Font.BOLD, 32));
         lblTitulo.setForeground(DesignUtils.DARK_NAVY);
         lblTitulo.setHorizontalAlignment(SwingConstants.CENTER);

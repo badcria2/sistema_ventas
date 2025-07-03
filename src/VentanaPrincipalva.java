@@ -16,7 +16,7 @@ class VentanaPrincipalva extends JFrame {
     }
     
     private void initComponents() {
-        setTitle("TechStore Pro - Sistema de Ventas");
+        setTitle("Tecnoby Store - Sistema de Ventas");
         setLayout(new BorderLayout());
         
         // Panel superior con logo y título
@@ -24,7 +24,7 @@ class VentanaPrincipalva extends JFrame {
         headerPanel.setBackground(new Color(41, 128, 185));
         headerPanel.setPreferredSize(new Dimension(0, 80));
         
-        JLabel titleLabel = new JLabel("TechStore Pro", SwingConstants.CENTER);
+        JLabel titleLabel = new JLabel("Tecnoby Store", SwingConstants.CENTER);
         titleLabel.setFont(new Font("Segoe UI", Font.BOLD, 28));
         titleLabel.setForeground(Color.WHITE);
         headerPanel.add(titleLabel, BorderLayout.CENTER);
@@ -84,7 +84,7 @@ class VentanaPrincipalva extends JFrame {
         JPanel footerPanel = new JPanel();
         footerPanel.setBackground(new Color(52, 73, 94));
         footerPanel.setPreferredSize(new Dimension(0, 40));
-        JLabel footerLabel = new JLabel("© 2025 TechStore Pro - Sistema de Gestión Empresarial", SwingConstants.CENTER);
+        JLabel footerLabel = new JLabel("© 2025 Tecnoby Store - Sistema de Gestión Empresarial", SwingConstants.CENTER);
         footerLabel.setForeground(Color.WHITE);
         footerLabel.setFont(new Font("Segoe UI", Font.PLAIN, 12));
         footerPanel.add(footerLabel);

@@ -46,7 +46,7 @@ class VentanaReportes extends JFrame {
     private void initComponents() {
         // ... (el código para crear los paneles es en su mayoría el mismo) ...
         // <<< CAMBIO: Se han extraído los métodos de creación de paneles para mayor claridad >>>
-        setTitle("Reportes de Ventas - TechStore Pro");
+        setTitle("Reportes de Ventas - Tecnoby Store");
         setLayout(new BorderLayout(10, 10));
         getContentPane().setBackground(Color.WHITE);
 

@@ -49,7 +49,7 @@ class VentanaVentas extends JFrame {
     }
 
     private void initComponents() {
-        setTitle("Realizar Venta - TechStore Pro");
+        setTitle("Realizar Venta - Tecnoby Store");
         setLayout(new BorderLayout(10, 10)); // Añade espacio entre componentes
         getContentPane().setBackground(Color.WHITE);
 

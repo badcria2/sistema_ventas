@@ -51,11 +51,11 @@ public class VentanaPrincipal extends JFrame {
         }
     }
   private void initComponents() {
-        setTitle("TechStore Pro - Sistema de Ventas");
+        setTitle("Tecnoby Store - Sistema de Ventas");
         setLayout(new BorderLayout());
         
         JPanel headerPanel = DesignUtils.createHeaderPanel(
-            "TechStore Pro", 
+            "Tecnoby Store", 
             "Sistema de Gestión de Ventas - Versión 2.1"
         );
         
@@ -107,7 +107,7 @@ public class VentanaPrincipal extends JFrame {
         
         JPanel statsPanel = createStatsPanel();
         JPanel footerPanel = DesignUtils.createFooterPanel(
-            "© 2025 TechStore Pro - Sistema de Gestión Empresarial"
+            "© 2025 Tecnoby Store - Sistema de Gestión Empresarial"
         );
         
         add(headerPanel, BorderLayout.NORTH);

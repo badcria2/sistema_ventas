@@ -31,7 +31,7 @@ public class VentanaProductos extends JFrame {
     }
 
     private void initComponents() {
-        DesignUtils.configureWindow(this, "Gestión de Productos - TechStore Pro", 1200, 800, true, true);
+        DesignUtils.configureWindow(this, "Gestión de Productos - Tecnoby Store", 1200, 800, true, true);
         setLayout(new BorderLayout());
 
         JPanel headerPanel = DesignUtils.createHeaderPanel("Gestión de Productos", "Administrar inventario y catálogo de productos");
