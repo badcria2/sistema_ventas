@@ -31,6 +31,8 @@ class VentanaVentas extends JFrame {
     public VentanaVentas() {
         cargarProductos();
         initComponents();
+        Image icon = new ImageIcon(getClass().getResource("/resources/logo.png")).getImage();
+            this.setIconImage(icon);
         setupWindow();
     }
 

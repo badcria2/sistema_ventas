@@ -30,6 +30,8 @@ class VentanaReportes extends JFrame {
     public VentanaReportes() {
         cargarVentas();
         initComponents();
+        Image icon = new ImageIcon(getClass().getResource("/resources/logo.png")).getImage();
+            this.setIconImage(icon);
         setupWindow(); 
         actualizarEstadoFiltros(); 
     }

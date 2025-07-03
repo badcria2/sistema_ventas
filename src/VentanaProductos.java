@@ -19,6 +19,8 @@ public class VentanaProductos extends JFrame {
     public VentanaProductos() {
         cargarDatos();
         initComponents();
+        Image icon = new ImageIcon(getClass().getResource("/resources/logo.png")).getImage();
+            this.setIconImage(icon);
     }
 
     private void cargarDatos() {
